@@ -2400,7 +2400,7 @@ body {
 	}
 
 	#orangeMenu {
-		width: 374px;
+		width: 376px;
 		background-color: var(--primary-color);
 		box-shadow: 0 1px 1px 1px rgb(161, 161, 161);
 		display: flex;
@@ -2447,7 +2447,7 @@ body {
 	#hidden #hiddenUl {
 		position: absolute;
 		top: 24px;
-		left: -350px;
+		left: -352px;
 		flex-direction: column;
 		transform: translateX(200px);
 		opacity: 0;
