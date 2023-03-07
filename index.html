@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent | Demon Slayer</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="assets/smallImage/airplane.png" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="whiteSection">
+        <navbar class="container" id="orangeMenu">
+            <div class="navComponents">
+                <div class="navTitle">
+                    <a href="https://www.revou.co/" target="_blank"><img src="assets/smallImage/RevouLogo.png" alt="RevoU"></a>
+                </div>
+                <div class="navContent">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#ourPackage">Our Package</a></li>
+                        <li><a href="#callUs">Call Us</a></li>
+                    </ul>
+                </div>
+                <div class="humburgerMenu">
+                    <img id="humMenu" src="assets/smallImage/menu.png" alt="menu">
+                </div>
+                <div id="hidden">
+                    <ul id="hiddenUl">
+                        <li class="hiddenLi"><a href="#home">Home</a></li>
+                        <li class="hiddenLi"><a href="#ourPackage">Our Package</a></li>
+                        <li class="hiddenLi"><a href="#callUs">Call Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </navbar>
+    </header>
+
+    <!-- Main -->
+    <main id="main">
+        <div class="container">
+            <section id="home" class="whiteSection">
+                <div class="mainTitle">
+                    <h1>Your Trusted Travel Agent's</h1>
+                    <p>Your happiness is our hapiness</p>
+                </div>
+                <div class="mainContent">
+                    <div class="leftLayout">
+                        <div class="imageBox">
+                            <div class="slides first">
+                                <img id="imageSlider1" src="assets/ImgSlider/image1.jpg" alt="ImageSlider1">
+                            </div>
+                            <div class="slides">
+                                <img id="imageSlider2" src="assets/ImgSlider/image2.png" alt="ImageSlider2">
+                            </div>
+                            <div class="slides">
+                                <img id="imageSlider3" src="assets/ImgSlider/image3.png" alt="ImageSlider3">
+                            </div>
+                            <div class="slides">
+                                <img id="imageSlider4" src="assets/ImgSlider/image4.png" alt="ImageSlider4">
+                            </div>
+                            <div class="slides">
+                                <img id="imageSlider5" src="assets/ImgSlider/image5.jpg" alt="ImageSlider5">
+                            </div>
+                            <div class="slides">
+                                <img id="imageSlider6" src="assets/ImgSlider/image6.jpg" alt="ImageSlider6">
+                            </div>
+                            <div class="slides">
+                                <img id="imageSlider7" src="assets/ImgSlider/image7.jpg" alt="ImageSlider7">
+                            </div> 
+                        </div>
+                        <div class="testimoniBox">
+                            <p id="caption">"Liburan jadi menyenangkan bersama Travel <br> Agentku."</p>
+                            <div class="identityBox">
+                                <div class="identityPhoto">
+                                    <img id="profilePict" src="assets/smallImage/ProfilePicture.jpg" alt="ProfilePicture">
+                                </div>
+                                <div class="identityContent">
+                                    <h1>Zhao Lusi</h1>
+                                    <p>Chinese Actress, 24</p>
+                                </div>
+                            </div>
+                            <hr id="captionLine">
+                        </div>
+                        <div class="benefitsExplain">
+                            <p id="benefitsExplain">Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or product</p>
+                            <div class="explainBox">
+                                <div class="firstBox">
+                                    <div class="nums">1</div>
+                                    <p>Your first feature, written in the form of a <br> benefit statement.</p>
+                                </div>
+                                <div class="secondBox">
+                                    <div class="nums">2</div>
+                                    <p>Your second feature, written in the form <br> of a benefit statement.</p>
+                                </div>
+                                <div class="thirdBox">
+                                    <div class="nums">3</div>
+                                    <p>Your third feature, written in the form of <br> a benefit statement.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rightLayout">
+                        <div class="titleForm">
+                            <h1>Contact Us</h1>
+                            <p>Sales akan menghubungi anda 1x24</p>
+                            <p>jam setelah data kami terima.</p>
+                        </div>
+                        <form action="/" id="formContact">
+                            <div class="input-control nameForm">
+                                <label for="name">Your Name:</label>
+                                <input type="text" id="name" placeholder="First and last name" autocomplete="off">
+                                <div class="error">
+                                    <img src="assets/smallImage/exclamation-mark.png" alt="error">
+                                    <p id="usernameCheckError">Your name is required</p>
+                                </div>
+                            </div>
+                            <div class="input-control emailForm">
+                                <label for="email">Email Address:</label>
+                                <input type="email" id="email" placeholder="example@gmail.com" autocomplete="off">
+                                <div class="error">
+                                    <img src="assets/smallImage/exclamation-mark.png" alt="error">
+                                    <p id="emailCheckError">Email is required</p>
+                                </div>
+                            </div>
+                            <div class="input-control optionForm">
+                                <label for="options">What are you interested in?</label>
+                                <div class="line"></div>
+                                <select id="options">
+                                    <option value="" disabled selected hidden>Select option</option>
+                                    <option>Vacation Spot</option>
+                                    <option>Natural Beauty</option>
+                                    <option>Beautiful View</option>
+                                </select>
+                                <div class="error">
+                                    <img src="assets/smallImage/exclamation-mark.png" alt="error">
+                                    <p>Your option is required</p>
+                                </div>
+                            </div>
+                            <button id="submit" type="submit">SEND</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section id="ourPackage" class="coloredSection">
+            <img src="assets/wave/WhiteWave.png" alt="WhiteWave" width="100%">
+            <div class="container" id="ourPackageSection">
+                <div class="titlePackage">
+                    <h1 id="titlePackage">Our Package</h1>
+                </div>
+                <div class="contentPackage">
+                    <div class="topPack">
+                        <div class="topContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/City/Bali.jpg" alt="Bali">
+                            </div>
+                            <div class="leftBox">
+                                <h1>Bali</h1>
+                                <p>Travel dan wisata di Bali. Kunjungi cagar budaya dan kuliner yang menarik</p>
+                            </div>
+                        </div>
+                        <div class="topContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/City/Japan.jpg" alt="Japan">
+                            </div>
+                            <div class="leftBox">
+                                <h1>Japan</h1>
+                                <p>Travel dan wisata di Japan. Kunjungi cagar budaya dan kuliner yang menarik</p>
+                            </div>
+                        </div>
+                        <div class="topContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/City/Singapore.jpg" alt="Singapore">
+                            </div>
+                            <div class="leftBox">
+                                <h1>Singapore</h1>
+                                <p>Travel dan wisata di Singapore. Kunjungi cagar budaya dan kuliner yang menarik</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="midPack">
+                        <hr id="midPackage">
+                    </div>
+                    <div class="botPack">
+                        <div class="botContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/City/Bandung.jpg" alt="Bandung">
+                            </div>
+                            <div class="leftBox">
+                                <h1>Bandung</h1>
+                                <p>Travel dan wisata di Bandung. Kunjungi cagar budaya dan kuliner yang menarik</p>
+                            </div>
+                        </div>
+                        <div class="botContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/City/Surabaya.jpg" alt="Surabaya">
+                            </div>
+                            <div class="leftBox">
+                                <h1>Surabaya</h1>
+                                <p>Travel dan wisata di Surabaya. Kunjungi cagar budaya dan kuliner yang menarik</p>
+                            </div>
+                        </div>
+                        <div class="botContent" id="boxContent">
+                            <div class="rightBox">
+                                <img src="assets/City/France.jpg" alt="France">
+                            </div>
+                            <div class="leftBox">
+                                <h1>France</h1>
+                                <p>Travel dan wisata di France. Kunjungi cagar budaya dan kuliner yang menarik</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="callUs" class="whiteSection">
+            <img src="assets/wave/OrangeWave.png" alt="OrangeWave" width="100%">
+            <div class="callUsContent">
+                <h1 id="callUsTitle">Your Closing Argument Headline</h1>
+                <div class="paragraph">
+                    <p>Suspendisse egestas rhoncus urna in bibendum. Donec urna neque, euismod sed justo quis, convallis tincidunt risus. Phasellus fringilla odio vel erat fringilla</p>
+                </div>
+                <button id="callUsButton">CALL TO ACTION</button>
+                <hr id="callUsLine">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="whiteSection">
+        <div class="footerLogo">
+            <img src="assets/smallImage/RevouLogo.png" alt="RevoUFooterLogo">
+        </div>
+        <div class="termPrivBox">
+            <p>Terms of Service</p>
+            <p>Privacy Policy</p>
+        </div>
+        <p id="copyright">&copy; 2023 Karel Trisnanto Utomo</p>
+    </footer>
+    
+
+    <script src="JS/index.js"></script>
+</body>
+</html>
