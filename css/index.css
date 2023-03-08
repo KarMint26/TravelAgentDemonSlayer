@@ -2576,6 +2576,7 @@ body {
 		margin-left: 7rem;
 		overflow: hidden;
 		border-radius: 10px;
+		box-shadow: .5px .5px .5px .5px rgba(0, 0, 0, .2);
 	}
 
 	main #home .mainContent .leftLayout .imageBox .slides {
@@ -2586,7 +2587,7 @@ body {
 		width: 300px;
 		height: 300px;
 		border-radius: 10px;
-		box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
+		box-shadow: .5px .5px .5px .5px rgba(0, 0, 0, .5);
 		filter: contrast(1.25) brightness(1.2);
 	}
 
