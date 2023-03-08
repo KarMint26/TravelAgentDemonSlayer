@@ -2863,6 +2863,7 @@ body {
 		height: 2.7rem;
 		background-color: rgba(0, 0, 0, .2);
 		z-index: 100;
+		display: none;
 	}
 	
 	select {
