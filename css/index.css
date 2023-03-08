@@ -2859,7 +2859,7 @@ body {
 	
 	main #home .mainContent .rightLayout #formContact .line {
 		position: absolute;
-		right: 20px;
+		right: 5px;
 		width: 2px;
 		height: 2.7rem;
 		background-color: rgba(0, 0, 0, .2);
