@@ -2406,7 +2406,7 @@ body {
 	}
 
 	#orangeMenu {
-		width: 376px;
+		width: 378px;
 		background-color: var(--primary-color);
 		box-shadow: 0 1px 1px 1px rgb(161, 161, 161);
 		display: flex;
@@ -2453,14 +2453,14 @@ body {
 	#hidden #hiddenUl {
 		position: absolute;
 		top: 24px;
-		left: -352px;
+		left: -355.5px;
 		flex-direction: column;
 		transform: translateX(200px);
 		opacity: 0;
 		align-items: flex-end;
 		padding: .5rem 1rem .7rem 0rem;
 		background-color: var(--primary-color);
-		width: 413px;
+		width: 378px;
 		border-top: 1px solid rgb(117, 117, 117);
 		transition: .5s ease-in-out;
 	}
@@ -2512,6 +2512,10 @@ body {
 		align-items: center;
 		flex-direction: column;
 	}
+
+	#home.whiteSection {
+		width: 378px;
+	}
 	
 	main #home .mainTitle {
 		display: flex;
@@ -2542,8 +2546,8 @@ body {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		padding: 1rem;
 		margin-bottom: -10rem;
+		padding: 0px;
 	}
 	
 	/* Left Layout Styling */
@@ -2556,7 +2560,8 @@ body {
 		align-items: center;
 		flex-direction: column;
 		margin-bottom: 3rem;
-		margin-right: -4rem;
+		margin-right: 0rem;
+		width: 378px;
 	}
 	
 	/* Image Slider Start */
@@ -2566,10 +2571,9 @@ body {
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
-		margin-right: 8rem;
 		width: 300px;
 		height: 300px;
-		margin-left: 4rem;
+		margin-left: 7rem;
 		overflow: hidden;
 		border-radius: 10px;
 		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .5);
@@ -2641,12 +2645,13 @@ body {
 	}
 	
 	main #home .mainContent .leftLayout .benefitsExplain {
-		padding-left: 3rem;
-		width: 437px;
-		margin-left: 4rem;
+		width: auto;
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
+		margin: 0;
+		align-items: center;
+		overflow-x: hidden;
 	}
 	
 	main #home .mainContent .leftLayout .benefitsExplain #benefitsExplain {
@@ -2654,13 +2659,17 @@ body {
 		font-weight: bold;
 		font-size: .85rem;
 		margin-bottom: 2.5rem;
-		width: 65%;
+		width: 85%;
+		margin-left: -40px;
 	}
 	
 	main #home .mainContent .leftLayout .benefitsExplain .explainBox {
+		position: relative;
+		left: 50px;
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
+		align-items: center;
 		gap: .8rem;
 		margin-bottom: 11rem;
 	}
@@ -2672,6 +2681,8 @@ body {
 		align-items: center;
 		flex-direction: row;
 		gap: .5rem;
+		width: 378px;
+		margin-left: -50px;
 	}
 	
 	main #home .mainContent .leftLayout .benefitsExplain .explainBox .nums {
@@ -2760,7 +2771,7 @@ body {
 		flex-direction: column;
 		background-color: #eaeaea;
 		padding: 1rem 1.5rem;
-		margin-bottom: 8rem;
+		margin-bottom: 10rem;
 		border-radius: 5px;
 		box-shadow: 1.5px 1.5px 2px 1.5px rgba(94, 94, 94, .2), 
 					-1.5px -1.5px 2px 1.5px rgba(94, 94, 94, 0.2);
@@ -2793,6 +2804,7 @@ body {
 		justify-content: center;
 		align-items: flex-start;
 		flex-direction: column;
+		width: 100%;
 	}
 	
 	main #home .mainContent .rightLayout #formContact .optionForm {
@@ -2809,7 +2821,7 @@ body {
 	
 	main #home .mainContent .rightLayout #formContact input {
 		border: 1px solid #cccccc;
-		padding: .7rem 2.3rem .7rem .7rem;
+		padding: .7rem;
 		margin-bottom: 1.5rem;
 		border-radius: 5px;
 		box-shadow: 0 0 2px 1px rgba(0, 0, 0, .2);
@@ -2833,8 +2845,9 @@ body {
 	main #home .mainContent .rightLayout #formContact #options {
 		position: relative;
 		border: 1px solid #cccccc;
-		padding: .8rem 8rem .8rem .5rem;
+		padding: .8rem;
 		margin-bottom: 1.5rem;
+		width: 107%;
 		border-radius: 5px;
 		box-shadow: 0 0 2px 1px rgba(0, 0, 0, .2);
 		background-color: #fff;
@@ -2846,7 +2859,7 @@ body {
 	
 	main #home .mainContent .rightLayout #formContact .line {
 		position: absolute;
-		right: 20px;
+		right: 7px;
 		width: 2px;
 		height: 2.7rem;
 		background-color: rgba(0, 0, 0, .2);

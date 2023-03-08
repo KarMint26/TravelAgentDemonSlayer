@@ -252,6 +252,7 @@ humburgerMenu.addEventListener('click', () => {
         nums++;
     } else {
         document.getElementById("hiddenUl").classList.remove("active");
+        document.getElementById("hidden").style.overflow = "hidden";
         nums = 0;
     }
 });
