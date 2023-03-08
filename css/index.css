@@ -2576,7 +2576,6 @@ body {
 		margin-left: 7rem;
 		overflow: hidden;
 		border-radius: 10px;
-		box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, .5);
 	}
 
 	main #home .mainContent .leftLayout .imageBox .slides {
@@ -2859,7 +2858,7 @@ body {
 	
 	main #home .mainContent .rightLayout #formContact .line {
 		position: absolute;
-		right: 5px;
+		right: 3px;
 		width: 2px;
 		height: 2.7rem;
 		background-color: rgba(0, 0, 0, .2);
