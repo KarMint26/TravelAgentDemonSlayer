@@ -2847,7 +2847,7 @@ body {
 		border: 1px solid #cccccc;
 		padding: .8rem;
 		margin-bottom: 1.5rem;
-		width: 115%;
+		width: 117%;
 		border-radius: 5px;
 		box-shadow: 0 0 2px 1px rgba(0, 0, 0, .2);
 		background-color: #fff;
@@ -2859,7 +2859,7 @@ body {
 	
 	main #home .mainContent .rightLayout #formContact .line {
 		position: absolute;
-		right: 7px;
+		right: 15px;
 		width: 2px;
 		height: 2.7rem;
 		background-color: rgba(0, 0, 0, .2);
