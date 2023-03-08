@@ -463,6 +463,10 @@ body {
 	main #home .mainContent .rightLayout #formContact .optionForm {
 		position: relative;
 	}
+
+	main #home .mainContent .rightLayout #formContact .input-control {
+		width: 90%;
+	}
 	
 	main #home .mainContent .rightLayout #formContact label {
 		display: block;
@@ -474,7 +478,8 @@ body {
 	
 	main #home .mainContent .rightLayout #formContact input {
 		border: 1px solid #cccccc;
-		padding: .8rem 5rem .8rem .5rem;
+		width: 85%;
+		padding: .8rem 3rem .8rem .5rem;
 		margin-bottom: 1.5rem;
 		border-radius: 5px;
 		box-shadow: 0 0 2px 1px rgba(0, 0, 0, .2);
@@ -498,7 +503,8 @@ body {
 	main #home .mainContent .rightLayout #formContact #options {
 		position: relative;
 		border: 1px solid #cccccc;
-		padding: .8rem 9.3rem .8rem .5rem;
+		width: 110%;
+		padding: .8rem 3rem .8rem .5rem;
 		margin-bottom: 1.5rem;
 		border-radius: 5px;
 		box-shadow: 0 0 2px 1px rgba(0, 0, 0, .2);
@@ -511,7 +517,7 @@ body {
 	
 	main #home .mainContent .rightLayout #formContact .line {
 		position: absolute;
-		right: 20px;
+		right: -3px;
 		width: 2px;
 		height: 2.7rem;
 		background-color: rgba(0, 0, 0, .2);
