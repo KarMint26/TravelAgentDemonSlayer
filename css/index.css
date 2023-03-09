@@ -85,8 +85,11 @@ table {
 	background-clip: content-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
-	scroll-behavior: smooth !important;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
