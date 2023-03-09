@@ -6,6 +6,7 @@ const identityBox = document.querySelector(".identityBox");
 const captionLine = document.getElementById("captionLine");
 const benefitsExplain = document.getElementById("benefitsExplain");
 const explainBox = document.querySelector(".explainBox");
+const rightLy = document.getElementById("rightLayout");
 
 // Our Package Animation Scroll Variable
 const titlePack = document.getElementById("titlePackage");
@@ -39,6 +40,7 @@ window.addEventListener('scroll', () => {
     const captionLineCheck = captionLine.getBoundingClientRect().top;
     const benefitsExplainCheck = benefitsExplain.getBoundingClientRect().top;
     const explainBoxCheck = explainBox.getBoundingClientRect().top;
+    const rightLyCheck = rightLy.getBoundingClientRect().top;
 
     if(captionCheck < triggerElement){
         caption.classList.add("AOS");
@@ -64,6 +66,11 @@ window.addEventListener('scroll', () => {
         explainBox.classList.add("AOS");
     } else {
         explainBox.classList.remove("AOS");
+    }
+    if(rightLyCheck < triggerElement){
+        rightLy.classList.add("AOS");
+    } else {
+        rightLy.classList.remove("AOS");
     }
 
     // Animation On Scroll in Section Our Package
