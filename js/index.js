@@ -242,6 +242,11 @@ const validationCheck = () => {
             }
         }   
     }
+    if(usernameValue !== '' && emailValue !== '' && optionValue !== '') {
+        alert("Thank You For Submiting");
+    } else if(usernameValue.length < 3 || emailValue.length < 3 || optionValue === ''){
+        alert("Please write correctly name, email, and select the option");
+    }
 
 }
 
