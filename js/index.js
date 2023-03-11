@@ -44,33 +44,21 @@ window.addEventListener('scroll', () => {
 
     if(captionCheck < triggerElement){
         caption.classList.add("AOS");
-    } else {
-        caption.classList.remove("AOS");
     }
     if(identityBoxCheck < triggerElement){
         identityBox.classList.add("AOS");
-    } else {
-        identityBox.classList.remove("AOS");
     }
     if(captionLineCheck < triggerElement){
         captionLine.classList.add("AOS");
-    } else {
-        captionLine.classList.remove("AOS");
     }
     if(benefitsExplainCheck < triggerElement){
         benefitsExplain.classList.add("AOS");
-    } else {
-        benefitsExplain.classList.remove("AOS");
     }
     if(explainBoxCheck < triggerElement){
         explainBox.classList.add("AOS");
-    } else {
-        explainBox.classList.remove("AOS");
     }
     if(rightLyCheck < triggerElement){
         rightLy.classList.add("AOS");
-    } else {
-        rightLy.classList.remove("AOS");
     }
 
     // Animation On Scroll in Section Our Package
@@ -80,8 +68,6 @@ window.addEventListener('scroll', () => {
 
         if(boxCheck < triggerElement){
             box.classList.add("AOS");
-        } else {
-            box.classList.remove("AOS");
         }
     });
 
@@ -90,13 +76,9 @@ window.addEventListener('scroll', () => {
 
     if(titlePackCheck < triggerElement) {
         titlePack.classList.add("AOS");
-    } else {
-        titlePack.classList.remove("AOS");
     }
     if(midPackageCheck < triggerElement) {
         midPackage.classList.add("AOS");
-    } else {
-        midPackage.classList.remove("AOS");
     }
 
     // Animation On Scroll in Section Call Us
@@ -108,26 +90,18 @@ window.addEventListener('scroll', () => {
 
     if(callTitleCheck < triggerElement) {
         callTitle.classList.add("AOS");
-    } else {
-        callTitle.classList.remove("AOS");
     }
 
     if(paragraphCheck < triggerElement) {
         paragraph.classList.add("AOS");
-    } else {
-        paragraph.classList.remove("AOS");
     }
 
     if(callButtonCheck < triggerElement) {
         callButton.classList.add("AOS");
-    } else {
-        callButton.classList.remove("AOS");
     }
 
     if(callLineCheck < triggerElement) {
         callLine.classList.add("AOS");
-    } else {
-        callLine.classList.remove("AOS");
     }
 
 });
